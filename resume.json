@@ -71,7 +71,7 @@
       {
         "project_name": "云上坦途",
         "project_role": "后端核心开发者",
-        "project_time": "2022.04 - 2022.09",
+        "project_time": "2022.05 - 2022.09",
         "project_desc": "云上坦途是云途信息科技自主研发的智慧道路治理系统、提供报告、流转、复核等业务功能，涵盖人员物料管理、问题查询推送、办公协同调度等子系统，构建线上与线下深度融合的治理体系，助力实现整个城市的精细化、智慧化管理。",
         "project_content": "1. 负责云上坦途V3.0版本的需求分析，接口开发和调整，数据库设计和调整等工作。\n2. 使用Flask+Redis+MySQL+Celery+Socketio +SQLAlchemy开发对应的 Restful API 供前后端分离开发使用。\n3. 将原来的请求内鉴权改写为统一鉴权中间件。\n4. 使用WebSocket实现消息通知，下载进度条功能。\n5. 使用Celery将下载任务异步化，保证请求响应速度。\n6. 后端性能优化，将接口的响应速度调整到200ms以内。\n7. 部署上线。",
         "dataIndex": 0
@@ -79,7 +79,7 @@
       {
         "project_name": "坦途养护系统单点登录功能（SSO）",
         "project_role": "后端核心开发者",
-        "project_time": "2022.01 - 2020.02",
+        "project_time": "2022.03 - 2020.05",
         "project_desc": "面向浙江省杭州市拱墅区政务工作人员的大屏系统，添加单点登录功能。对接浙政钉系统，方便政务人员工作。",
         "project_content": "1. 实现了以Oauth2.0 为基础的用户认证的接入功能。\n2. 使用OAuth2.0的授权码模式（authorization code）。\n3. 通信请求全程密文加密（使用AES加密算法）。\n4. 使用PostgreSQL + Redis 作为数据库。",
         "dataIndex": 1
@@ -87,7 +87,7 @@
       {
         "project_name": "定时数据推送平台",
         "project_role": "后端核心开发者",
-        "project_time": "2022.03-2022.06",
+        "project_time": "2022.04-2022.06",
         "project_desc": "ToB和ToG的数据推送平台，爬取相关信息清洗为指定格式并推送到浙江省数据局，因数据安全性，政务云机器部署。",
         "project_content": "1. 开发专用爬虫系统，实现签名认证爬取接口数据并清洗成指定数据格式。（作为生产者）\n2. 使用分布式框架Celery 开发定时数据推送平台（作为消费者），并部署到服务器上。\n3. 在多台机器部署组建Celery集群。\n4. 使用redis作为消息队列。",
         "dataIndex": 2
