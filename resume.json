@@ -1,115 +1,98 @@
 {
-    "titleNameMap": {
-      "educationList": "教育背景",
-      "workExpList": "工作经历",
-      "projectList": "项目经历",
-      "skillList": "个人技能",
-      "awardList": "更多信息",
-      "workList": "个人作品",
-      "aboutme": "自我介绍"
+  "titleNameMap": {
+    "educationList": "教育背景",
+    "workExpList": "工作经历",
+    "projectList": "项目经历",
+    "skillList": "个人技能",
+    "awardList": "更多信息",
+    "workList": "个人作品",
+    "aboutme": "自我介绍"
+  },
+  "avatar": { "hidden": false },
+  "profile": {
+    "name": "黄明炳",
+    "email": "acmpy4592@gmail.com",
+    "mobile": "18537628879",
+    "github": "https://github.com/acm-py",
+    "zhihu": "",
+    "workExpYear": "1年",
+    "workPlace": "",
+    "positionTitle": "后端开发工程师"
+  },
+  "educationList": [
+    {
+      "edu_time": ["2018.09.01", "2022.06.30"],
+      "school": "郑州西亚斯学院",
+      "major": "计算机科学与技术",
+      "academic_degree": "本科",
+      "dataIndex": 0
+    }
+  ],
+  "awardList": [
+    { "award_info": "英语 CET4", "award_time": "2021", "dataIndex": 0 }
+  ],
+  "workExpList": [
+    {
+      "company_name": "云途信息科技（杭州）有限公司",
+      "department_name": "开发中心",
+      "work_time": "2022.03-2022.10",
+      "work_desc": "1. 担任Python开发工程师",
+      "dataIndex": 0
+    }
+  ],
+  "skillList": [
+    {
+      "skill_name": "Python",
+      "skill_desc": "阅读过CPython源码。\n熟悉PEP8规范，熟练使用Type Hint，熟悉多线程、协程、装饰器等高级特性。\n熟悉Web编程与MVC设计模型，掌握Django/Flask Web框设计原理和运行机制，阅读过Django、Flask部分源码，了解WSGI规范。",
+      "skill_level": 90,
+      "dataIndex": 0
     },
-    "avatar": {
-      "hidden": false
+    {
+      "skill_name": "Go",
+      "skill_level": 85,
+      "dataIndex": 1,
+      "skill_desc": "阅读过Go runtime包下部分源码。\n熟悉Go mutex、channel，Go内存模型、GC垃圾回收器等底层原理和设计。\n熟悉Go Web编程，掌握Gin、Beego、GORM框架的使用与实践。熟悉Grpc。"
     },
-    "profile": {
-      "name": "廖晓娟",
-      "email": "736929286@qq.com",
-      "mobile": "15625057119",
-      "github": "https://github.com/visiky",
-      "zhihu": "https://zhihu.com/people/visiky",
-      "workExpYear": "",
-      "workPlace": "",
-      "positionTitle": ""
+    {
+      "skill_name": "计算机理论基础+算法与数据结构",
+      "skill_level": 90,
+      "skill_desc": "熟悉HTTP，TCP/IP，WebSocket 协议，\n熟悉Socket 网络编程，XML 和 JSON 数据解析以及本地缓存。\n有扎实的计算机理论基础，良好的算法与数据结构基础，熟悉计算机组成原理，计算机网络以及操作系统的一系列知识。"
     },
-    "educationList": [
-      {
-        "edu_time": [
-          "2014.09.01",
-          "2018.06.30"
-        ],
-        "school": "华南理工大学",
-        "major": "网络工程",
-        "academic_degree": "本科"
-      }
-    ],
-    "awardList": [
-      {
-        "award_info": "英语 CET6",
-        "award_time": "2015"
-      },
-      {
-        "award_info": "蚂蚁近卫军 卓越个人奖",
-        "award_time": "2018.09"
-      },
-      {
-        "award_info": "前端练习生 可视化讲师",
-        "award_time": "2020.10"
-      },
-      {
-        "award_info": "前端早早聊 分享 “如何构思和开发开箱即用的可视化图表库 G2Plot”",
-        "award_time": "2021.07"
-      }
-    ],
-    "workExpList": [
-      {
-        "company_name": "蚂蚁集团",
-        "department_name": "体验技术部",
-        "work_time": [
-          "2018.06",
-          null
-        ],
-        "work_desc": "1. 担任蚂蚁高管决策和管理协同产品 “数据作战室” 的前端负责人\r\n2. 负责蚂蚁敏捷 BI 产品 “DeepInsight” 的可视分析模块产品能力建设\n3. 数据可视化 AntV 团队核心成员，负责 G2、G2Plot 开源技术的建设"
-      },
-      {
-        "company_name": "蚂蚁金服",
-        "department_name": "大数据部",
-        "work_time": [
-          "2017.06",
-          "2017.12"
-        ],
-        "work_desc": "前端实习生。使用 React 参与开发多类产品：数据研发平台、数据决策平台、数据分析平台的研发工作，同时也参与大型 BI 产品的重构工作，有良好的编码习惯。"
-      },
-      {
-        "company_name": "数沃信息科技有限公司",
-        "department_name": "",
-        "work_time": [
-          "2017.03",
-          "2017.05"
-        ],
-        "work_desc": "前端实习生。使用 Vue 来实现平台功能和逻辑，再用 ECharts 来对数据挖掘分析后的可视化结果进行展示"
-      }
-    ],
-    "skillList": [],
-    "projectList": [
-      {
-        "project_name": "数据作战室",
-        "project_role": "前端负责人",
-        "project_time": "2019.04 - 2020.06",
-        "project_desc": "面向总裁和高管以及决策 BI 的数字化经营决策和管理协同产品。提供一站式的数据化经营决策和管理协同功能，让高管高效获取决策信息，并提升管理效率。",
-        "project_content": "1. 项目从0到1的框架设计和开发 2. 产品体验精雕细琢的打磨 3. 建立稳定性保障机制。目前仍在迭代中，帮助提升高管业务决策效率"
-      },
-      {
-        "project_name": "DeepInsight",
-        "project_role": "可视分析负责人",
-        "project_time": "2018.07 - 2019.04 / 2020.07 - 至今",
-        "project_desc": "DeepInsight 是蚂蚁集团自主研发的自助式 BI 数据洞察分析平台，面向企业分析人员、业务人员和开发人员，帮助蚂蚁集团实现精细化运营。",
-        "project_content": "BI 平台工具核心部分是报表制作，也就是通过数据连接、可视化配置形成图表物料之后，通过拖拽方式进行页面编排，最终形成报表页面进行发布的过程。\n1. 主导开放能力建设，拉通产品、设计建设和扩展可视化图形，提升丰富度\n2. 产品体验优化，尤其是对 ECharts 的体验顽疾进行攻克\n3. 主导可视化能力建设：业务标准化图表库建设(通用组件设计和开发经验丰富)、促进数据分析能力增强等可视化一体化建设"
-      },
-      {
-        "project_name": "G2、G2Plot",
-        "project_role": "核心开发者",
-        "project_time": "2019 - 至今",
-        "project_desc": "G2 是基于图形语法理论的可视化渲染引擎，G2Plot 是在 G2 基础上封装的开箱即用的统计可视化图表库",
-        "project_content": "AntV 可视化建设，赋能整个蚂蚁和阿里集团统计可视化分析相关业务。负责 AntV 系列: AntV 官网、G 渲染引擎、 G2、G2Plot、ThemeSet 主题构建器等开源项目的研发工作。"
-      }
-    ],
-    "workList": [],
-    "aboutme": {
-      "aboutme_desc": "🌱 Focus on data visualization and analysis 😈 能力项：沟通协调能力、执行力\n    自驱型前端工程师，三年多大型复杂产品开发经验，负责蚂蚁集团 BI 产品 DeepInsight 的可视化建设，参与了从图表库到 BI 产品力的一体化建设，对商业智能领域的数据可视化建设有较为丰富的经验。\n    目前是开源产品 AntV G2/G2Plot 栈主要负责人。\n    "
+    {
+      "skill_name": "数据库",
+      "skill_level": 90,
+      "skill_desc": "熟悉MySQL 数据库的基本原理与使用，\n熟悉Redis 数据库的基本原理与使用。\n熟悉PostgreSql 数据库的基本原理与使用。\n掌握PostGis扩展的使用（空间信息服务）。"
+    }
+  ],
+  "projectList": [
+    {
+      "project_name": "云上坦途",
+      "project_role": "后端核心开发者",
+      "project_time": "2022.05 - 2022.09",
+      "project_desc": "云上坦途是云途信息科技自主研发的智慧道路治理系统、提供报告、流转、复核等业务功能，涵盖人员物料管理、问题查询推送、办公协同调度等子系统，构建线上与线下深度融合的治理体系，助力实现整个城市的精细化、智慧化管理。",
+      "project_content": "1. 负责云上坦途V3.0版本的需求分析，接口开发和调整，数据库设计和调整等工作。\n2. 使用Flask+Redis+MySQL+Celery+Socketio +SQLAlchemy开发对应的 Restful API 供前后端分离开发使用。\n3. 将原来的请求内鉴权改写为统一鉴权中间件。\n4. 使用WebSocket实现消息通知，下载进度条功能。\n5. 使用Celery将下载任务异步化，保证请求响应速度。\n6. 后端性能优化，将接口的响应速度调整到200ms以内。\n7. 部署上线。",
+      "dataIndex": 0
     },
-    "theme": {
-      "color": "#2f5785",
-      "tagColor": "#8bc34a"
+    {
+      "project_name": "坦途养护系统单点登录功能（SSO）",
+      "project_role": "后端核心开发者",
+      "project_time": "2022.04 - 2020.05",
+      "project_desc": "面向浙江省杭州市拱墅区政务工作人员的大屏系统，添加单点登录功能。对接浙政钉系统，方便政务人员工作。",
+      "project_content": "1. 实现了以Oauth2.0 为基础的用户认证的接入功能。\n2. 使用OAuth2.0的授权码模式（authorization code）。\n3. 通信请求全程密文加密（使用AES加密算法）。\n4. 使用PostgreSQL + Redis 作为数据库。",
+      "dataIndex": 1
     },
-    "template": "template1"
-  }
+    {
+      "project_name": "定时数据推送平台",
+      "project_role": "后端核心开发者",
+      "project_time": "2022.04-2022.07",
+      "project_desc": "ToB和ToG的数据推送平台，爬取相关信息清洗为指定格式并推送到浙江省数据局，因数据安全性，政务云机器部署。",
+      "project_content": "1. 开发专用爬虫系统，实现签名认证爬取接口数据并清洗成指定数据格式。（作为生产者）\n2. 使用分布式框架Celery 开发定时数据推送平台（作为消费者），并部署到服务器上。\n3. 在多台机器部署组建Celery集群。\n4. 使用redis作为消息队列。",
+      "dataIndex": 2
+    }
+  ],
+  "workList": [],
+  "aboutme": {
+    "aboutme_desc": "🌱 Focus on Backend and  Distributed Systems😈 能力项：沟通协调能力、执行力\n    自驱型后端工程师，喜欢研究底层源码，热于剖析源码。目前喜好研究分布式系统，后端系统架构。\n    "
+  },
+  "theme": { "color": "#2f5785", "tagColor": "#8bc34a" }
+}
