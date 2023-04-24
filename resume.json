@@ -38,27 +38,21 @@
     {      
       "company_name": "上海葵铭智能科技有限公司",
       "department_name": "智能算法部/IT组",
-      "work_time": ["2022.11"],
+      "work_time": ["2022.12"],
       "work_desc": "Python开发工程师",
       "dataIndex": 0
     },
     {
       "company_name": "云途信息科技（杭州）有限公司",
       "department_name": "开发中心",
-      "work_time": ["2022.06", "2022.10"],
+      "work_time": ["2022.03", "2022.10"],
       "work_desc": "Python开发工程师"
-    },
-    {
-      "work_time": ["2022.03", "2022.06"],
-      "company_name": "云途信息科技（杭州）有限公司",
-      "department_name": "开发中心",
-      "work_desc": "Python开发工程师（实习）"
     }
   ],
   "skillList": [
     {
       "skill_name": "Python",
-      "skill_desc": "熟练掌握使用Python3开发。\n阅读过CPython源码。熟悉PEP8规范。\n熟练使用Type Hint，熟悉异步编程、多线程、协程、装饰器等高级特性。\n熟练掌握Django/Flask 框架开发使用，熟悉WSGI开发规范。\n熟悉Celery 的使用。\n熟练掌握restful api 风格。",
+      "skill_desc": "熟练掌握使用Python3开发。了解C++\n阅读过CPython源码。熟悉PEP8规范。\n熟练使用Type Hint，熟悉异步编程、多线程、协程、装饰器等高级特性。\n熟练掌握Django/Flask 框架开发使用，熟悉WSGI开发规范。\n熟悉Celery 的使用。\n熟练掌握restful api 风格。",
       "skill_level": 90,
       "dataIndex": 0
     },
@@ -89,51 +83,52 @@
   ],
   "projectList": [
     {
-      "project_name": "数据分发平台搭建",
-      "project_role": "后端主程",
-      "project_time": "2022.12 - 2022.2",
-      "project_desc": "使用kafka作为消息中间件、通过Telegraf进行数据的采集和转发，存储到influxdb时序数据库中，提供给团队成员使用",
-      "project_content": "1. 负责数据分发平台的需求分析，技术选型、技术可行性验证等工作。\n2. 搭建Kafka+Telegraf+chronograf+influxdb+redis服务。\n3. 使用python和go封装influxdb客户端，为业务场景提供相关的接口。\n4. 使用redis作为缓存层，实时数据通过redis存储，定期刷入到influxdb中。\n6. 部署上线。",
+      "project_name": "量化交易系统",
+      "project_role": "后端唯一开发",
+      "project_time": "2022.2 - 至今",
+      "project_desc": "使用总线式设计，事件驱动式架构，通过消息中间件将原由的不可控的交易端、策略端、行情端组合在一起。并新增了监控端。",
+      "project_content": "1. 负责架构设计、技术选型、编码开发等工作。\n2. 利用消息中间件进行将交易端、策略端、行情端进行解耦。\n3. 利用总线进行数据的流向控制和获取。\n4. 监控端作为一个Web项目，实现数据可视化和debug追踪。\n5. 部署上线。",
       "dataIndex": 0
+    },
+    {
+      "project_name": "数据中台服务",
+      "project_role": "后端唯一开发",
+      "project_time": "2022.12 - 2022.2",
+      "project_desc": "使用kafka作为消息中间件、通过Telegraf进行level1 级别的tick数据的采集和转发，存储到influxdb时序数据库中(每天数据量1500w)，提供给团队成员使用",
+      "project_content": "1. 负责数据分发平台的需求分析，技术选型、技术可行性验证等工作。\n2. 搭建Kafka+Telegraf+chronograf+influxdb+redis服务。\n3. 使用python和go封装influxdb客户端，为业务场景提供相关的接口。\n4. 使用redis作为缓存层，实时数据通过redis存储，定期刷入到influxdb中。\n6. 部署上线。",
+      "dataIndex": 1
+    },
+    {
+      "project_name": "量化交易接口对接（华鑫、中信、国信）",
+      "project_role": "后端唯一开发",
+      "project_time": "2022.12 - 至今",
+      "project_desc": "华鑫起点、国信gt、中信cats等券商接口对接，量化交易程序开发",
+      "project_content": "1. 和策略人员沟通，编码开发。\n2. 进行程序化策略信号获取、下单、撤单、补单、盘后数据备份等功能\n3. 实现交易日自动执行任务，非交易日不执行。\n5. 实盘运行。",
+      "dataIndex": 2
     },
     {
       "project_name": "云上坦途",
       "project_role": "后端唯一开发",
       "project_time": "2022.05 - 2022.09",
       "project_desc": "云上坦途是云途信息科技自主研发的智慧道路治理系统、提供报告、流转、复核等业务功能，涵盖人员物料管理、问题查询推送、办公协同调度等子系统，构建线上与线下深度融合的治理体系，助力实现整个城市的精细化、智慧化管理。技术栈：Flask+SQLAlchemy+MySQL+Redis+SocketIo+Celery",
-      "project_content": "1. 负责云上坦途V3.0版本的需求分析，接口开发和调整，数据库设计和调整等工作。\n2. 使用Flask开发 Restful风格 API 供PC端、移动端使用。\n3. 模块优化，将原来的请求内鉴权改写为统一鉴权中间件。\n4. 使用WebSocket实现服务端消息通知（原来是轮训），下载进度条功能。\n5. 使用Celery将长请求（例如下载、导出）异步化，保证接口响应速度。\n6. 后端性能优化，将接口的响应速度调整到200ms以内。\n7. 部署上线。"
-    },
-    {
-      "project_name": "坦途养护系统单点登录功能（SSO）",
-      "project_role": "后端核心开发者",
-      "project_time": "2022.03 - 2020.05",
-      "project_desc": "为面向浙江省杭州市拱墅区政务工作人员的大屏系统添加单点登录功能。对接浙政钉系统，方便政务人员工作。",
-      "project_content": "1. 负责实现以Oauth2.0协议中授权码模式（authorization code）为基础的统一授权功能。\n2. 使用Flask实现接入浙政钉、对接实现相关接口。\n3. 使用AES加密算法实现请求报文和响应报文的加解密。（安全性要求）\n4. 负责设计相关数据表、撰写相关文档，为前端同事讲解相关技术流程（主要是Oauth2.0）",
-      "dataIndex": 1
-    },
-    {
-      "project_name": "定时数据推送平台",
-      "project_role": "后端核心开发者",
-      "project_time": "2022.04-2022.06",
-      "project_desc": "ToB和ToG的数据推送平台，爬取相关信息清洗为指定格式并推送到浙江省数据局，因数据安全性，政务云机器部署。",
-      "project_content": "1. 开发专用爬虫系统，伪造签名认证爬取接口数据并清洗成指定数据格式。\n2. 使用分布式框架Celery 开发定时数据推送平台，并部署到服务器上。\n3. 在多台机器部署组建Celery集群。\n4. 使用redis作为消息队列。",
-      "dataIndex": 2
-    },
-    {
-      "project_time": "2021.03-2021.06",
-      "project_name": "MIT 6.s081",
-      "project_role": "学生",
-      "project_desc": "MIT 操作系统课程，在基于 RISCV 架构以及类 unix 操作系统 xv6，实现11个alb，了解操作系统的各种细节。",
-      "project_content": "根据MIT 6.s081的课程内容，在基于C语言构建一个小型可靠的RISC-V架构的操作系统完成各种lab。\n加深了对操作系统的机制和基本原理的细节理解。\n实现了内存页懒分配，实现了fork懒复制。\n实现了用户态的线程库。",
+      "project_content": "1. 负责云上坦途V3.0版本的需求分析，接口开发和调整，数据库设计和调整等工作。\n2. 使用Flask开发 Restful风格 API 供PC端、移动端使用。\n3. 模块优化，将原来的请求内鉴权改写为统一鉴权中间件。\n4. 使用WebSocket实现服务端消息通知（原来是轮训），下载进度条功能。\n5. 使用Celery将长请求（例如下载、导出）异步化，保证接口响应速度。\n6. 后端性能优化，将接口的响应速度调整到200ms以内。\n7. 部署上线。",
       "dataIndex": 3
     },
     {
-      "project_time": "2021.08-2022.01",
-      "project_name": "MIT 6.824",
-      "project_role": "学生",
-      "project_desc": "MIT 分布式系统课程，每节课带读一篇分布式领域的经典论文。课程有四个Lab，实现一个基于Raft共识算法的kv存储系统。",
-      "project_content": "根据MIT6.824的课程内容，构建一个基于Go语言的分布式kv键值对数据库。\n阅读了Google的三驾马车（三大论文）。\n对分布式系统有一定的认知了。\n了解了CAP、BASE、ALPS相关理论和指标。\n认识到分布式共识算法 Raft（lab实现）、Paxos（lab实现）、ZAB、CRAQ。\n能够更好的使用Go。",
+      "project_name": "坦途养护系统单点登录功能（SSO）",
+      "project_role": "后端主程",
+      "project_time": "2022.03 - 2020.05",
+      "project_desc": "为面向浙江省杭州市拱墅区政务工作人员的大屏系统添加单点登录功能。对接浙政钉系统，方便政务人员工作。",
+      "project_content": "1. 负责实现以Oauth2.0协议中授权码模式（authorization code）为基础的统一授权功能。\n2. 使用Flask实现接入浙政钉、对接实现相关接口。\n3. 使用AES加密算法实现请求报文和响应报文的加解密。（安全性要求）\n4. 负责设计相关数据表、撰写相关文档，为前端同事讲解相关技术流程（主要是Oauth2.0）",
       "dataIndex": 4
+    },
+    {
+      "project_name": "定时数据推送平台",
+      "project_role": "后端主程",
+      "project_time": "2022.04-2022.06",
+      "project_desc": "ToB和ToG的数据推送平台，爬取相关信息清洗为指定格式并推送到浙江省数据局，因数据安全性，政务云机器部署。",
+      "project_content": "1. 开发专用爬虫系统，伪造签名认证爬取接口数据并清洗成指定数据格式。\n2. 使用分布式框架Celery 开发定时数据推送平台，并部署到服务器上。\n3. 在多台机器部署组建Celery集群。\n4. 使用redis作为消息队列。",
+      "dataIndex": 5
     }
   ],
   "workList": [],
