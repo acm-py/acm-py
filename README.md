@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm bing</h1>
 <h3 align="center">I am a back-end development engineer, now living in Yangpu, Shanghai</h3>
 
-- 🌱 I’m currently learning **ChatGPT、LangChian、Rust、web3**
+- 🌱 I’m currently learning **ChatGPT、LangChian、Rust、Web3**
 
 - 📝 I regularly write articles on [https://acm-py.github.io/](https://acm-py.github.io/)
 
