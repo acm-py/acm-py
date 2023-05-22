@@ -98,8 +98,8 @@
       "project_name": "类GPT项目1.0",
       "project_role": "后端唯一开发",
       "project_time": "2022.4 - 至今",
-      "project_desc": "使用LangChain、OpenAi api_key、Chroma、Redis、Flask、Gunicorn开发垂直领域的chat bot后端api项目。",
-      "project_content": "1. 负责架构设计、技术选型、编码开发等工作。\n2. 利用OpenAi开放的模型api，以及通过Embedding 将数据向量化并存储到Chroma向量数据库中方便索引匹配。\n3. 使用Flask+Gunicorn编写并部署后端api项目。\n4. 使用LangChain框架管理Prompt、开发Web search、上下文记忆等功能。\n5. 使用Nginx搭建了两层反代，并将项目部署上线。" ,
+      "project_desc": "使用LangChain、OpenAI api_key、Chroma、Redis、Flask、Gunicorn开发垂直领域的chat bot后端api项目。",
+      "project_content": "1. 负责架构设计、技术选型、编码开发等工作。\n2. 利用OpenAI开放的模型api，以及通过Embedding 将数据向量化并存储到Chroma向量数据库中方便索引匹配。\n3. 使用Flask+Gunicorn编写并部署后端api项目。\n4. 使用LangChain框架管理Prompt、开发Web search、上下文记忆等功能。\n5. 使用Nginx搭建了两层反代，并将项目部署上线。" ,
       "dataIndex": 0
     },
     {
@@ -122,7 +122,7 @@
       "project_name": "量化交易接口对接（华鑫、中信、国信）",
       "project_role": "后端唯一开发",
       "project_time": "2022.12 - 至今",
-      "project_desc": "华鑫起点、国信Gt、中信Cats等券商系统接口对接，量化交易程序开发",
+      "project_desc": "华鑫起点、国信Gt、中信cats等券商接口对接，量化交易程序开发",
       "project_content": "1. 和策略人员沟通，编码开发。\n2. 进行程序化策略信号获取、下单、撤单、补单、盘后数据备份等功能\n3. 实现交易日自动执行任务，非交易日不执行。\n5. 实盘运行。",
       "dataIndex": 3
     },
@@ -147,7 +147,7 @@
       "project_role": "后端主程",
       "project_time": "2022.04-2022.06",
       "project_desc": "ToB和ToG的数据推送平台，爬取相关信息清洗为指定格式并推送到浙江省数据局，因数据安全性，政务云机器部署。",
-      "project_content": "1. 开发专用爬虫系统，伪造签名认证爬取接口数据并清洗成指定数据格式。\n2. 使用分布式框架Celery 开发定时数据推送平台，并部署到服务器上。\n3. 在多台机器部署组建Celery集群。\n4. 使用Redis作为消息队列。",
+      "project_content": "1. 开发专用爬虫系统，伪造签名认证爬取接口数据并清洗成指定数据格式。\n2. 使用分布式框架Celery 开发定时数据推送平台，并部署到服务器上。\n3. 在多台机器部署组建Celery集群。\n4. 使用redis作为消息队列。",
       "dataIndex": 6
     }
   ],
