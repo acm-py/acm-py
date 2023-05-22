@@ -87,9 +87,9 @@
       "dataIndex": 5
     },
     {
-      "skill_name": "觉得很好的 书/公开课",
+      "skill_name": "觉得很好的书/公开课/播客",
       "skill_level": 85,
-      "skill_desc": "mit6.s081、mit6.824、mit15.S12(doing)、cs61A、cmu-15213、cmu-15445(doing)等。\n流畅的Python、Python工匠、DDIA(doing)、重构、CSAPP、OSTEP、redis设计与实现、人月神话(doing)等。\n rss订阅爱好者",
+      "skill_desc": "mit6.s081、mit6.824、mit15.S12(doing)、cs61A、cmu-15213、cmu-15445(doing)等。\n流畅的Python、Python工匠、DDIA(doing)、重构、CSAPP、OSTEP、redis设计与实现、人月神话(doing)等。\n 捕蛇者说、ByteTalk、ggtalk、牛油果烤面包、内核恐慌等",
       "dataIndex": 6
     }
   ],
