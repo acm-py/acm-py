@@ -65,7 +65,7 @@
     {
       "skill_name": "计算机理论基础+算法与数据结构",
       "skill_level": 90,
-      "skill_desc": "熟悉HTTP/HTTPS,TCP/IP协议栈，WebSocket等协议。\n熟悉常见算法和数据结构的使用。\n熟悉多线程、多进程编程技术，熟悉常见的线程同步、进程通信技术。",
+      "skill_desc": "熟悉HTTP/HTTPS,TCP/IP协议栈，WebSocket等协议。\n熟悉常见算法和数据结构的使用。\n熟悉多线程、多进程编程技术，熟悉常见的线程同步、进程通信技术。\n 熟悉常见认证方式Oauth2.0、JWT、Token Auth",
       "dataIndex": 2
     },
     {
@@ -77,13 +77,13 @@
     {
       "skill_name": "Linux/操作系统原理",
       "skill_level": 85,
-      "skill_desc": "有过一年Manjaro(archlinux系)作为主力机经历(大二)。\n熟练掌握linux开发环境(日常就是remote ssh上进行开发或者WSL)\n熟悉nginx的配置和部署",
+      "skill_desc": "有过一年Manjaro(archlinux系)作为主力机经历(大二)。\n熟练掌握linux开发环境(日常就是remote ssh上进行开发或者WSL)\n熟悉nginx的配置和部署\n熟悉posix 基础、IO多路复用、进程/线程通信、了解分布式系统理论",
       "dataIndex": 4
     },
     {
       "skill_name": "工具掌握",
       "skill_level": 85,
-      "skill_desc": "掌握docker/docker-compose，并了解基本原理。\n会编写docker-compose.yml，会打包docker image\n熟悉常⻅消息队列的使⽤。\nVIM爱好者。(已经爱上了neovim)\n",
+      "skill_desc": "掌握docker/docker-compose，了解k8s。\n会编写docker-compose.yml，会打包docker image\n熟悉常⻅消息队列(kafka、rocketmq、redis等)的搭建和使⽤。\nVIM爱好者。(已经爱上了neovim)\n chatgpt",
       "dataIndex": 5
     },
     {
