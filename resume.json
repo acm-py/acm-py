@@ -52,7 +52,7 @@
   "skillList": [
     {
       "skill_name": "Python",
-      "skill_desc": "熟练掌握使用Python3开发。了解C++\n阅读过CPython源码。熟悉PEP8规范。\n熟练使用Type Hint，熟悉异步编程、多线程、协程、装饰器等高级特性。\n熟练掌握Django/Flask 框架开发使用，熟悉WSGI开发规范。\n熟悉Celery 的使用。\n熟练掌握restful api 风格。",
+      "skill_desc": "阅读过CPython源码，对Python内部机制有深刻理解。熟悉PEP8规范。\n熟练使用Type Hint，熟悉异步编程、多线程、协程、装饰器等高级特性。\n熟练掌握Django/Flask 框架开发使用，熟悉WSGI开发协议。\n熟悉Celery 的使用。\n掌握Python项目工具(pdm、black/flake、mypy、pre-commit)\n了解Cython、Ctype的开发",
       "skill_level": 90,
       "dataIndex": 0
     },
@@ -65,7 +65,7 @@
     {
       "skill_name": "计算机理论基础+算法与数据结构",
       "skill_level": 90,
-      "skill_desc": "熟悉HTTP，TCP/UDP，WebSocket 协议。\n熟悉常见算法和数据结构的使用。\n熟悉多线程、多进程编程技术，熟悉常见的线程同步、进程通信技术。",
+      "skill_desc": "熟悉HTTP/HTTPS,TCP/IP协议栈，WebSocket等协议。\n熟悉常见算法和数据结构的使用。\n熟悉多线程、多进程编程技术，熟悉常见的线程同步、进程通信技术。",
       "dataIndex": 2
     },
     {
@@ -75,17 +75,37 @@
       "dataIndex": 3
     },
     {
-      "skill_name": "其他",
+      "skill_name": "Linux/操作系统原理",
       "skill_level": 85,
-      "skill_desc": "掌握docker，并了解基本原理。\n熟悉Linux系统常用操作。\n熟悉常⻅消息队列的使⽤。\nVIM爱好者。(已经爱上了neovim)",
+      "skill_desc": "有过一年Manjaro(archlinux系)作为主力机经历(大二)。\n熟练掌握linux开发环境(日常就是remote ssh上进行开发或者WSL)\n熟悉nginx的配置和部署",
       "dataIndex": 4
+    },
+    {
+      "skill_name": "工具掌握",
+      "skill_level": 85,
+      "skill_desc": "掌握docker/docker-compose，并了解基本原理。\n会编写docker-compose.yml，会打包docker image\n熟悉常⻅消息队列的使⽤。\nVIM爱好者。(已经爱上了neovim)\n",
+      "dataIndex": 5
+    },
+    {
+      "skill_name": "觉得很好的 书/公开课",
+      "skill_level": 85,
+      "skill_desc": "mit6.s081、mit6.824、mit15.S12(doing)、cs61A、cmu-15213、cmu-15445(doing)等。\n流畅的Python、Python工匠、DDIA(doing)、重构、CSAPP、OSTEP、redis设计与实现、人月神话(doing)等。\n rss订阅爱好者",
+      "dataIndex": 6
     }
   ],
   "projectList": [
     {
+      "project_name": "类GPT项目",
+      "project_role": "后端唯一开发",
+      "project_time": "2022.3 - 至今",
+      "project_desc": "使用总线式设计，事件驱动式架构，通过消息中间件将原由的不可控的交易端、策略端、行情端组合在一起。并新增了监控端。",
+      "project_content": "1. 负责架构设计、技术选型、编码开发等工作。\n2. 利用消息中间件进行将交易端、策略端、行情端进行解耦。\n3. 利用总线进行数据的流向控制和获取。\n4. 使用grafana搭建监控端 \n5.采用事件驱动的编程模型，控制交易逻辑的触发。" ,
+      "dataIndex": 0
+    },
+    {
       "project_name": "量化交易系统",
       "project_role": "后端唯一开发",
-      "project_time": "2022.2 - 至今",
+      "project_time": "2022.3 - 至今",
       "project_desc": "使用总线式设计，事件驱动式架构，通过消息中间件将原由的不可控的交易端、策略端、行情端组合在一起。并新增了监控端。",
       "project_content": "1. 负责架构设计、技术选型、编码开发等工作。\n2. 利用消息中间件进行将交易端、策略端、行情端进行解耦。\n3. 利用总线进行数据的流向控制和获取。\n4. 使用grafana搭建监控端 \n5.采用事件驱动的编程模型，控制交易逻辑的触发。" ,
       "dataIndex": 0
