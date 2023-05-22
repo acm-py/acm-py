@@ -52,7 +52,7 @@
   "skillList": [
     {
       "skill_name": "Python",
-      "skill_desc": "阅读过CPython源码，对Python内部机制有深刻理解。熟悉PEP8规范。\n熟练使用Type Hint，熟悉异步编程、多线程、协程、装饰器等高级特性。\n熟练掌握Django/Flask 框架开发使用，熟悉WSGI开发协议。\n熟悉Celery 的使用。\n掌握Python项目质量控制工具(pdm、black/flake、mypy、pre-commit等)\n了解Cython、Ctype的开发。",
+      "skill_desc": "阅读过CPython源码，对Python内部机制有深刻理解。熟悉PEP8规范。\n熟练使用Type Hint，熟悉异步编程、多线程、协程、装饰器等高级特性。\n熟练掌握Django/Flask 框架开发使用，熟悉WSGI开发协议。\n熟悉Celery 的使用。\n掌握Python项目质量控制工具(PDM、Black/Flake、Mypy、pre-commit等)\n了解Cython、ctypes的开发。",
       "skill_level": 90,
       "dataIndex": 0
     },
@@ -71,25 +71,25 @@
     {
       "skill_name": "数据库",
       "skill_level": 90,
-      "skill_desc": "熟悉MySQL、influxdb、mongodb 数据库的基本原理与使用。\n熟悉Redis 数据库的基本原理与使用。\n熟悉PostgreSql 数据库的基本原理与使用，掌握PostGis扩展的使用(空间信息服务)。",
+      "skill_desc": "熟悉MySQL、InfluxDB、MongoDB 数据库的基本原理与使用。\n熟悉Redis 数据库的基本原理与使用。\n熟悉PostgreSql 数据库的基本原理与使用，掌握PostGis扩展的使用(空间信息服务)。",
       "dataIndex": 3
     },
     {
       "skill_name": "Linux/操作系统原理",
       "skill_level": 85,
-      "skill_desc": "有过一年Manjaro(archlinux系)作为主力机经历(大二)。\n熟练掌握linux开发环境(日常就是remote ssh上进行开发或者WSL)。\n熟悉nginx的配置和部署。\n熟悉posix 基础、IO多路复用、进程/线程通信、了解分布式系统理论。",
+      "skill_desc": "有过一年Manjaro(Arch Linux系)作为主力机经历(大二)。\n熟练掌握Linux开发环境(日常就是remote ssh上进行开发或者WSL)。\n熟悉Nginx的配置和部署。\n熟悉POSIX 基础、IO多路复用、进程/线程通信、了解分布式系统理论。",
       "dataIndex": 4
     },
     {
       "skill_name": "工具掌握",
       "skill_level": 85,
-      "skill_desc": "掌握docker/docker-compose，了解k8s。\n会编写docker-compose.yml，会打包docker image。\n熟悉常⻅消息队列(kafka、rocketmq、redis等)的搭建和使⽤。\nVIM爱好者。(已经爱上了neovim)。\n chatgpt。",
+      "skill_desc": "掌握Docker/Docker Compose，了解K8S。\n会编写docker-compose.yml，会打包docker image。\n熟悉常⻅消息队列(Kafka、Rocketmq、Redis等)的搭建和使⽤。\nVim爱好者。(已经爱上了Neovim)。\n ChatGpt。",
       "dataIndex": 5
     },
     {
       "skill_name": "觉得很好的书/公开课/播客",
       "skill_level": 85,
-      "skill_desc": "mit6.s081、mit6.824、mit15.S12(doing)、cs61A、cmu-15213、cmu-15445(doing)等。\n流畅的Python、Python工匠、DDIA(doing)、重构、CSAPP、OSTEP、redis设计与实现、人月神话(doing)等。\n 捕蛇者说、ByteTalk、ggtalk、牛油果烤面包、内核恐慌等。",
+      "skill_desc": "MIT6.S081、MIT6.824、MIT15.S12(doing)、CS61A、CMU-15213、CMU-15445(doing)等。\n流畅的Python、Python工匠、DDIA(doing)、重构、CSAPP、OSTEP、Redis设计与实现、人月神话(doing)等。\n 捕蛇者说、ByteTalk、ggtalk、牛油果烤面包、内核恐慌等。",
       "dataIndex": 6
     }
   ],
@@ -98,8 +98,8 @@
       "project_name": "类GPT项目1.0",
       "project_role": "后端唯一开发",
       "project_time": "2022.4 - 至今",
-      "project_desc": "使用langchain、openai api_key、chroma、redis、flask、gunicorn开发垂直领域的chat bot后端api项目。",
-      "project_content": "1. 负责架构设计、技术选型、编码开发等工作。\n2. 利用openai开放的模型api，以及通过embedding 将数据向量化并存储到chroma向量数据库中方便索引匹配。\n3. 使用flask+gunicorn编写并部署后端api项目。\n4. 使用langchain框架管理prompt、开发web search、上下文记忆等功能。\n5. 使用nginx搭建了两层反代，并将项目部署上线。" ,
+      "project_desc": "使用LangChain、OpenAi api_key、Chroma、Redis、Flask、Gunicorn开发垂直领域的chat bot后端api项目。",
+      "project_content": "1. 负责架构设计、技术选型、编码开发等工作。\n2. 利用OpenAi开放的模型api，以及通过Embedding 将数据向量化并存储到Chroma向量数据库中方便索引匹配。\n3. 使用Flask+Gunicorn编写并部署后端api项目。\n4. 使用LangChain框架管理Prompt、开发Web search、上下文记忆等功能。\n5. 使用Nginx搭建了两层反代，并将项目部署上线。" ,
       "dataIndex": 0
     },
     {
@@ -107,22 +107,22 @@
       "project_role": "后端唯一开发",
       "project_time": "2022.3 - 至今",
       "project_desc": "使用总线式设计，事件驱动式架构，通过消息中间件将原由的不可控的交易端、策略端、行情端组合在一起。并新增了监控端。",
-      "project_content": "1. 负责架构设计、技术选型、编码开发等工作。\n2. 利用消息中间件进行将交易端、策略端、行情端进行解耦。\n3. 利用总线进行数据的流向控制和获取。\n4. 使用grafana搭建监控端。\n5.采用事件驱动的编程模型，控制交易逻辑的触发。" ,
+      "project_content": "1. 负责架构设计、技术选型、编码开发等工作。\n2. 利用消息中间件进行将交易端、策略端、行情端进行解耦。\n3. 利用总线进行数据的流向控制和获取。\n4. 使用Grafana搭建监控端。\n5.采用事件驱动的编程模型，控制交易逻辑的触发。" ,
       "dataIndex": 1
     },
     {
       "project_name": "数据中台服务",
       "project_role": "后端唯一开发",
       "project_time": "2022.12 - 2022.2",
-      "project_desc": "使用kafka作为消息中间件、通过Telegraf进行level1 级别的tick数据的采集和转发，存储到influxdb时序数据库中(每天数据量1500w)，提供给团队成员使用",
-      "project_content": "1. 负责需求分析、技术选型、架构设计、编码开发等工作。\n2. 搭建Kafka+Telegraf+chronograf+influxdb+redis服务。\n3. 使用python和go封装influxdb客户端，为业务场景提供相关的接口。\n4. 使用redis作为缓存层，实时数据通过redis存储，定期刷入到influxdb中。\n6. 部署上线。",
+      "project_desc": "使用Kafka作为消息中间件、通过Telegraf进行Level1 级别的Tick数据的采集和转发，存储到InfluxDB时序数据库中(每天数据量1500w)，提供给团队成员使用",
+      "project_content": "1. 负责需求分析、技术选型、架构设计、编码开发等工作。\n2. 搭建Kafka+Telegraf+Chronograf+InfluxDB+Redis服务。\n3. 使用Python和Go封装InfluxDB客户端，为业务场景提供相关的接口。\n4. 使用Redis作为缓存层，实时数据通过Redis存储，定期刷入到InfluxDB中。\n6. 部署上线。",
       "dataIndex": 2
     },
     {
       "project_name": "量化交易接口对接（华鑫、中信、国信）",
       "project_role": "后端唯一开发",
       "project_time": "2022.12 - 至今",
-      "project_desc": "华鑫起点、国信gt、中信cats等券商接口对接，量化交易程序开发",
+      "project_desc": "华鑫起点、国信Gt、中信Cats等券商系统接口对接，量化交易程序开发",
       "project_content": "1. 和策略人员沟通，编码开发。\n2. 进行程序化策略信号获取、下单、撤单、补单、盘后数据备份等功能\n3. 实现交易日自动执行任务，非交易日不执行。\n5. 实盘运行。",
       "dataIndex": 3
     },
@@ -147,7 +147,7 @@
       "project_role": "后端主程",
       "project_time": "2022.04-2022.06",
       "project_desc": "ToB和ToG的数据推送平台，爬取相关信息清洗为指定格式并推送到浙江省数据局，因数据安全性，政务云机器部署。",
-      "project_content": "1. 开发专用爬虫系统，伪造签名认证爬取接口数据并清洗成指定数据格式。\n2. 使用分布式框架Celery 开发定时数据推送平台，并部署到服务器上。\n3. 在多台机器部署组建Celery集群。\n4. 使用redis作为消息队列。",
+      "project_content": "1. 开发专用爬虫系统，伪造签名认证爬取接口数据并清洗成指定数据格式。\n2. 使用分布式框架Celery 开发定时数据推送平台，并部署到服务器上。\n3. 在多台机器部署组建Celery集群。\n4. 使用Redis作为消息队列。",
       "dataIndex": 6
     }
   ],
