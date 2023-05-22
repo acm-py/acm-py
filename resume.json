@@ -52,7 +52,7 @@
   "skillList": [
     {
       "skill_name": "Python",
-      "skill_desc": "阅读过CPython源码，对Python内部机制有深刻理解。熟悉PEP8规范。\n熟练使用Type Hint，熟悉异步编程、多线程、协程、装饰器等高级特性。\n熟练掌握Django/Flask 框架开发使用，熟悉WSGI开发协议。\n熟悉Celery 的使用。\n掌握Python项目工具(pdm、black/flake、mypy、pre-commit)\n了解Cython、Ctype的开发",
+      "skill_desc": "阅读过CPython源码，对Python内部机制有深刻理解。熟悉PEP8规范。\n熟练使用Type Hint，熟悉异步编程、多线程、协程、装饰器等高级特性。\n熟练掌握Django/Flask 框架开发使用，熟悉WSGI开发协议。\n熟悉Celery 的使用。\n掌握Python项目质量控制工具(pdm、black/flake、mypy、pre-commit等)\n了解Cython、Ctype的开发。",
       "skill_level": 90,
       "dataIndex": 0
     },
@@ -65,31 +65,31 @@
     {
       "skill_name": "计算机理论基础+算法与数据结构",
       "skill_level": 90,
-      "skill_desc": "熟悉HTTP/HTTPS,TCP/IP协议栈，WebSocket等协议。\n熟悉常见算法和数据结构的使用。\n熟悉多线程、多进程编程技术，熟悉常见的线程同步、进程通信技术。\n 熟悉常见认证方式Oauth2.0、JWT、Token Auth",
+      "skill_desc": "熟悉HTTP/HTTPS,TCP/IP协议栈，WebSocket等协议。\n熟悉常见算法和数据结构的使用。\n熟悉多线程、多进程编程技术，熟悉常见的线程同步、进程通信技术。\n 熟悉常见认证方式Oauth2.0、JWT、Token Auth。",
       "dataIndex": 2
     },
     {
       "skill_name": "数据库",
       "skill_level": 90,
-      "skill_desc": "熟悉MySQL、influxdb 数据库的基本原理与使用。\n熟悉Redis 数据库的基本原理与使用。\n熟悉PostgreSql 数据库的基本原理与使用，掌握PostGis扩展的使用（空间信息服务）。",
+      "skill_desc": "熟悉MySQL、influxdb、mongodb 数据库的基本原理与使用。\n熟悉Redis 数据库的基本原理与使用。\n熟悉PostgreSql 数据库的基本原理与使用，掌握PostGis扩展的使用(空间信息服务)。",
       "dataIndex": 3
     },
     {
       "skill_name": "Linux/操作系统原理",
       "skill_level": 85,
-      "skill_desc": "有过一年Manjaro(archlinux系)作为主力机经历(大二)。\n熟练掌握linux开发环境(日常就是remote ssh上进行开发或者WSL)\n熟悉nginx的配置和部署\n熟悉posix 基础、IO多路复用、进程/线程通信、了解分布式系统理论",
+      "skill_desc": "有过一年Manjaro(archlinux系)作为主力机经历(大二)。\n熟练掌握linux开发环境(日常就是remote ssh上进行开发或者WSL)。\n熟悉nginx的配置和部署。\n熟悉posix 基础、IO多路复用、进程/线程通信、了解分布式系统理论。",
       "dataIndex": 4
     },
     {
       "skill_name": "工具掌握",
       "skill_level": 85,
-      "skill_desc": "掌握docker/docker-compose，了解k8s。\n会编写docker-compose.yml，会打包docker image\n熟悉常⻅消息队列(kafka、rocketmq、redis等)的搭建和使⽤。\nVIM爱好者。(已经爱上了neovim)\n chatgpt",
+      "skill_desc": "掌握docker/docker-compose，了解k8s。\n会编写docker-compose.yml，会打包docker image。\n熟悉常⻅消息队列(kafka、rocketmq、redis等)的搭建和使⽤。\nVIM爱好者。(已经爱上了neovim)。\n chatgpt。",
       "dataIndex": 5
     },
     {
       "skill_name": "觉得很好的书/公开课/播客",
       "skill_level": 85,
-      "skill_desc": "mit6.s081、mit6.824、mit15.S12(doing)、cs61A、cmu-15213、cmu-15445(doing)等。\n流畅的Python、Python工匠、DDIA(doing)、重构、CSAPP、OSTEP、redis设计与实现、人月神话(doing)等。\n 捕蛇者说、ByteTalk、ggtalk、牛油果烤面包、内核恐慌等",
+      "skill_desc": "mit6.s081、mit6.824、mit15.S12(doing)、cs61A、cmu-15213、cmu-15445(doing)等。\n流畅的Python、Python工匠、DDIA(doing)、重构、CSAPP、OSTEP、redis设计与实现、人月神话(doing)等。\n 捕蛇者说、ByteTalk、ggtalk、牛油果烤面包、内核恐慌等。",
       "dataIndex": 6
     }
   ],
@@ -98,8 +98,8 @@
       "project_name": "类GPT项目1.0",
       "project_role": "后端唯一开发",
       "project_time": "2022.4 - 至今",
-      "project_desc": "使用langchain、openai api_key、chroma、redis、flask、gunicorn开发垂直领域的chat bot后端api项目",
-      "project_content": "1. 负责架构设计、技术选型、编码开发等工作。\n2. 利用openai开放的模型api，以及通过embedding 将数据向量化并存储到chroma向量数据库中方便索引匹配\n3. 使用flask+gunicorn编写并部署后端api项目。\n4. 使用langchain框架管理prompt、开发web search、上下文记忆等功能 \n5. 使用nginx搭建了两层反代，并将项目部署上线" ,
+      "project_desc": "使用langchain、openai api_key、chroma、redis、flask、gunicorn开发垂直领域的chat bot后端api项目。",
+      "project_content": "1. 负责架构设计、技术选型、编码开发等工作。\n2. 利用openai开放的模型api，以及通过embedding 将数据向量化并存储到chroma向量数据库中方便索引匹配。\n3. 使用flask+gunicorn编写并部署后端api项目。\n4. 使用langchain框架管理prompt、开发web search、上下文记忆等功能。\n5. 使用nginx搭建了两层反代，并将项目部署上线。" ,
       "dataIndex": 0
     },
     {
@@ -107,7 +107,7 @@
       "project_role": "后端唯一开发",
       "project_time": "2022.3 - 至今",
       "project_desc": "使用总线式设计，事件驱动式架构，通过消息中间件将原由的不可控的交易端、策略端、行情端组合在一起。并新增了监控端。",
-      "project_content": "1. 负责架构设计、技术选型、编码开发等工作。\n2. 利用消息中间件进行将交易端、策略端、行情端进行解耦。\n3. 利用总线进行数据的流向控制和获取。\n4. 使用grafana搭建监控端 \n5.采用事件驱动的编程模型，控制交易逻辑的触发。" ,
+      "project_content": "1. 负责架构设计、技术选型、编码开发等工作。\n2. 利用消息中间件进行将交易端、策略端、行情端进行解耦。\n3. 利用总线进行数据的流向控制和获取。\n4. 使用grafana搭建监控端。\n5.采用事件驱动的编程模型，控制交易逻辑的触发。" ,
       "dataIndex": 1
     },
     {
@@ -131,15 +131,15 @@
       "project_role": "后端唯一开发",
       "project_time": "2022.05 - 2022.09",
       "project_desc": "云上坦途是云途信息科技自主研发的智慧道路治理系统、提供报告、流转、复核等业务功能，涵盖人员物料管理、问题查询推送、办公协同调度等子系统，构建线上与线下深度融合的治理体系，助力实现整个城市的精细化、智慧化管理。技术栈：Flask+SQLAlchemy+MySQL+Redis+SocketIo+Celery",
-      "project_content": "1. 负责云上坦途V3.0版本的需求分析，接口开发和调整，数据库设计和调整等工作。\n2. 使用Flask开发 Restful风格 API 供PC端、移动端使用。\n3. 模块优化，将原来的请求内鉴权改写为统一鉴权中间件。\n4. 使用WebSocket实现服务端消息通知（原来是轮训），下载进度条功能。\n5. 使用Celery将长请求（例如下载、导出）异步化，保证接口响应速度。\n6. 后端性能优化，将接口的响应速度调整到200ms以内。\n7. 部署上线。",
+      "project_content": "1. 负责云上坦途V3.0版本的需求分析，接口开发和调整，数据库设计和调整等工作。\n2. 使用Flask开发 Restful风格 API 供PC端、移动端使用。\n3. 模块优化，将原来的请求内鉴权改写为统一鉴权中间件。\n4. 使用WebSocket实现服务端消息通知(原来是轮训)，下载进度条功能。\n5. 使用Celery将长请求(例如下载、导出)异步化，保证接口响应速度。\n6. 后端性能优化，将接口的响应速度调整到200ms以内。\n7. 部署上线。",
       "dataIndex": 4
     },
     {
-      "project_name": "坦途养护系统单点登录功能（SSO）",
+      "project_name": "坦途养护系统单点登录功能(SSO)",
       "project_role": "后端主程",
       "project_time": "2022.03 - 2020.05",
       "project_desc": "为面向浙江省杭州市拱墅区政务工作人员的大屏系统添加单点登录功能。对接浙政钉系统，方便政务人员工作。",
-      "project_content": "1. 负责实现以Oauth2.0协议中授权码模式（authorization code）为基础的统一授权功能。\n2. 使用Flask实现接入浙政钉、对接实现相关接口。\n3. 使用AES加密算法实现请求报文和响应报文的加解密。（安全性要求）\n4. 负责设计相关数据表、撰写相关文档，为前端同事讲解相关技术流程（主要是Oauth2.0）",
+      "project_content": "1. 负责实现以Oauth2.0协议中授权码模式(authorization code)为基础的统一授权功能。\n2. 使用Flask实现接入浙政钉、对接实现相关接口。\n3. 使用AES加密算法实现请求报文和响应报文的加解密。(安全性要求)\n4. 负责设计相关数据表、撰写相关文档，为前端同事讲解相关技术流程(主要是Oauth2.0)",
       "dataIndex": 5
     },
     {
